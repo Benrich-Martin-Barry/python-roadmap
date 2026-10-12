@@ -1,4 +1,4 @@
 name = "Benrich Martin"
 age = 23
 city = "Hyd"
-print(name, "is", age, "years old, lives in", city)
+print(f"{name} is {age} years old, lives in {city}")
