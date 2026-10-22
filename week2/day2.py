@@ -20,3 +20,10 @@ assert word_lengths(["a", "bb"]) == {"a": 1, "bb": 2}
 assert word_lengths([]) == {}
 assert word_lengths(["hi", "hi"]) == {"hi": 2}
 print("word_lengths passed")
+
+def flatten(matrix):
+    return [x for row in matrix for x in row]
+assert flatten([[1, 2], [3, 4]]) == [1, 2, 3, 4]
+assert flatten([]) == []
+assert flatten([[1], [], [2, 3]]) == [1, 2, 3]
+print('A')
