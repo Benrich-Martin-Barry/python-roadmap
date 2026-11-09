@@ -3,4 +3,5 @@ contacts.json
 t.json
 data.json
 marks.csv
-__pycache__/
+__pycache__
+expenses_v2.json
