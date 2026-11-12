@@ -23,7 +23,7 @@ while True:
         print("Total:", tracker.total())
     elif choice == "4":
         for category, amount in tracker.total_by_category().items():
-                    print(category, amount)
+            print(category, amount)
     elif choice == "5":
         print("Goodbye!")
         break
